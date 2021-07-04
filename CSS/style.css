@@ -1,0 +1,28 @@
+/* FONTS */
+@font-face {
+    font-family: 'pix_m_8pt_boldregular';
+    src: url('../fonts/MS Sans Serif 8pt bold.ttf') format('ttc');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'microsoft_sans_serifbook';
+    src: url('../fonts/MS Sans Serif 8pt.ttf') format('ttc');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'pix_m_8pt_boldregular', serif;
+    text-decoration: none;
+    font-weight:normal;
+    font-style:normal;
+}
+
+p {
+    font-family: 'microsoft_sans_serifbook', serif;
+    text-decoration: none;
+    font-weight:normal;
+    font-style:normal;
+}

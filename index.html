@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="./layout.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/compatibility.css">
     <title>Jessica Harriman - Software Engineer in training</title>
 </head>
 
@@ -25,7 +26,9 @@
         <!--MENU, ICON TO MATCH PAGE DESIGN-->
         <div id="menu">
             <nav>
-                <a href="file://wsl%24/Ubuntu/home/jmhar/Development/code/phase_0/portfolio/index.html"><img src="./images/heart.png" alt="home"></a><a href="#about">ABOUT</a><a href="#work">WORK</a><a href="#contact">CONTACT</a>
+                <a href="file://wsl%24/Ubuntu/home/jmhar/Development/code/phase_0/portfolio/index.html"><img
+                        src="./images/heart.png" alt="home"></a><a href="#about">ABOUT</a><a href="#work">WORK</a><a
+                    href="#contact">CONTACT</a>
             </nav>
         </div>
     </header>
@@ -38,11 +41,14 @@
             <h1>About</h1>
             <h2>Jessica Harriman</h2>
             <h3>Software Engineer in training</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nihil, qui sapiente unde molestiae iusto ducimus temporibus modi, perferendis aliquid provident. Odit nostrum, illum earum harum consequuntur ab impedit reiciendis?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nihil, qui sapiente unde molestiae iusto
+                ducimus temporibus modi, perferendis aliquid provident. Odit nostrum, illum earum harum consequuntur ab
+                impedit reiciendis?</p>
         </div>
 
         <!--WORK-->
         <div id="work">
+            <h1>Work</h1>
             <a href=""><img src=""></a><a href=""><img src=""></a><a href=""><img src=""></a><a href=""><img src=""></a>
         </div>
 
@@ -51,6 +57,41 @@
             <h1>Contact</h1>
             <a href="mailto:jmhar@protonmail.com"><img src="./images/email.png"></a>
             <h3>jmhar@protonmail.com</h3>
+
+            <!--CONTACT FORM-->
+            <div id="contact_form">
+                <form id="form" class="form" method="post" action="contact-form-process.php">
+
+                    <div class="contact_form">
+                        <label for="Name" class="label">Your name</label>
+                        <div class="input">
+                            <input type="text" id="Name" name="Name" required>
+                        </div>
+                    </div>
+
+                    <div class="contact_form">
+                        <label for="Email" class="label">Your email address</label>
+                        <div class="input">
+                            <input type="email" id="Email" name="Email" required>
+                        </div>
+                    </div>
+
+                    <div class="contact_form">
+                        <label for="Message" class="label">Your message</label>
+                        <div class="input">
+                            <textarea id="Message" name="Message" rows="6" maxlength="3000"
+                                required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="contact_form">
+                        <button type="submit" id="submit"
+                            class="submit">Send Message</button>
+                    </div>
+                    </div>
+
+                </form>
+            </div>
         </div>
     </main>
 </body>
