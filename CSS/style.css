@@ -1,28 +1,57 @@
 /* FONTS */
 @font-face {
-    font-family: 'pix_m_8pt_boldregular';
-    src: url('../fonts/MS Sans Serif 8pt bold.ttf') format('ttc');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'MS_Sans_Serif_8pt_bold';
+    src: url('./fonts/MS_Sans_Serif_8pt_bold.ttf');
 }
 
 @font-face {
-    font-family: 'microsoft_sans_serifbook';
-    src: url('../fonts/MS Sans Serif 8pt.ttf') format('ttc');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'MS_Sans_Serif_8pt';
+    src: url('./fonts/MS_Sans_Serif_8pt.ttf');
+}
+
+/* GENERAL */
+/* :root {
+    --clr-primary-100--: #ffebee;
+    --clr-primary-200--: #f8bbd0;
+    --clr-primary-400--: #ff80aa;
+    --clr-primary-900--: #cf0311;
+    --clr-accent-100--: #e3f2fd;
+    --clr-accent-200--: #bbdefb;
+    --clr-accent-400--: #90caf9;
+    --clr-accent-900--: #1975d2;
+    cursor: url('./images/cursor.png', auto);
+} */
+
+body {
+
+}
+
+h1 {
+    font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
+    text-decoration: none;
+    font-size: 39px;
 }
 
 h2 {
-    font-family: 'pix_m_8pt_boldregular', serif;
+    font-family: 'MS_Sans_Serif_8pt', sans-serif;
     text-decoration: none;
-    font-weight:normal;
-    font-style:normal;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'MS_Sans_Serif_8pt', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+h5 {
+    font-family: 'MS_Sans_Serif_8pt', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
 }
 
 p {
-    font-family: 'microsoft_sans_serifbook', serif;
+    font-family: 'MS_Sans_Serif_8pt', sans-serif;
     text-decoration: none;
-    font-weight:normal;
-    font-style:normal;
+    font-size: 9px;
 }

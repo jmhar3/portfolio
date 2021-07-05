@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./layout.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./CSS/compatibility.css">
@@ -12,18 +15,21 @@
     <!-- FIXED ICONS FOR RELATED LINKS -->
     <div id="links">
         <div class="container">
-            <a href=""><img src="" title="GitHub"></a>
+            <a href="https://github.com/jmhar3" target="_blank"><img src="./images/computer.png"></a>
+            <h3>GitHub</h3>
         </div>
         <div class="container">
-            <a href=""><img src="" title="My Blog"></a>
+            <a href="https://medium.com/@jmhar" target="_blank"><img src="./images/notebook.png"></a>
+            <h3>My Blog</h3>
         </div>
         <div class="container">
-            <a href=""><img src="" title="E-mail"></a>
+            <a href="mailto:jmhar@protonmail.com" target="_blank"><img src="./images/email.png"></a>
+            <h3>E-Mail</h3>
         </div>
     </div>
 
     <header>
-        <!--MENU, ICON TO MATCH PAGE DESIGN-->
+        <!-- MENU -->
         <div id="menu">
             <nav>
                 <a href="file://wsl%24/Ubuntu/home/jmhar/Development/code/phase_0/portfolio/index.html"><img
@@ -33,36 +39,52 @@
         </div>
     </header>
 
-    <!--MAIN BODY-->
+    <!-- MAIN BODY -->
     <main>
 
-        <!--ABOUT-->
-        <div id="about">
+        <!-- ABOUT -->
+        <section id="about">
             <h1>About</h1>
             <h2>Jessica Harriman</h2>
             <h3>Software Engineer in training</h3>
             <h3>Melbourne, Australia</h3>
-            <p>about me Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam fugiat quaerat optio quas praesentium delectus, non sit debitis vitae ipsam atque. Alias eos inventore omnis esse soluta consequuntur doloribus fugit!</p>
+            <p>about me Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam fugiat quaerat optio quas
+                praesentium delectus, non sit debitis vitae ipsam atque. Alias eos inventore omnis esse soluta
+                consequuntur doloribus fugit!</p>
             <h4>Tech I've been working with:</h4>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
             </ul>
-        </div>
+        </section>
 
-        <!--WORK-->
-        <div id="work">
+        <!-- WORK -->
+        <section id="work">
             <h1>Work</h1>
-            <a href=""><img src=""></a><a href=""><img src=""></a><a href=""><img src=""></a><a href=""><img src=""></a>
-        </div>
+            <h3>You can see some of the work I've right here. In this website you can see the skills I've developed over
+                the past two weeks using HTML & CSS</h3>
+        </section>
 
-        <!--CONTACT-->
-        <div id="contact">
+        <!-- BLOG -->
+        <section id="blog">
+            <h1>Blog</h1>
+            <h2>Jessica Hackerman</h2>
+            <h3>WHY I DECIDED TO STUDY SOFTWARE ENGINEERING.</h3>
+            <h5>12th of July, 2021</h5>
+            <a href="https://medium.com/@jmhar" target="_blank"><img src=""></a>
+            <p>I decided to study software engineering because Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quo earum pariatur optio nihil ipsa quasi, impedit numquam magnam beatae dolorum, error assumenda
+                doloremque odit sint tempora expedita culpa fuga eveniet.</p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
             <h1>Contact</h1>
             <a href="mailto:jmhar@protonmail.com"><img src="./images/email.png"></a>
             <h3>jmhar@protonmail.com</h3>
 
-            <!--CONTACT FORM-->
+            <!-- CONTACT FORM -->
             <div id="contact_form">
                 <form id="form" class="form" method="post" action="contact-form-process.php">
 
@@ -74,7 +96,7 @@
                     </div>
 
                     <div class="contact_form">
-                        <label for="Email" class="label">Your email address</label>
+                        <label for="Email" class="label">Your e-mail address</label>
                         <div class="input">
                             <input type="email" id="Email" name="Email" required>
                         </div>
@@ -88,13 +110,13 @@
                     </div>
 
                     <div class="contact_form">
-                        <button type="submit" id="submit" class="submit">Send Message</button>
+                        <button type="submit" id="submit">Send Message</button>
                     </div>
+
+                </form>
             </div>
 
-            </form>
-        </div>
-        </div>
+        </section>
     </main>
 </body>
 
