@@ -1,5 +1,22 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#links {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 18px;
+    top: 90px;
+}
+
 .container {
     overflow: auto;
-    display: inline-block;
-    max-width: 10%;
+    text-align: center;
+}
+
+main {
+    padding: 30px;
 }

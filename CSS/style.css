@@ -1,16 +1,16 @@
 /* FONTS */
 @font-face {
     font-family: 'MS_Sans_Serif_8pt_bold';
-    src: url('./fonts/MS_Sans_Serif_8pt_bold.ttf');
+    src: url(../fonts/MS_Sans_Serif_8pt_bold.ttf);
 }
 
 @font-face {
     font-family: 'MS_Sans_Serif_8pt';
-    src: url('./fonts/MS_Sans_Serif_8pt.ttf');
+    src: url(../fonts/MS_Sans_Serif_8pt.ttf);
 }
 
 /* GENERAL */
-/* :root {
+:root {
     --clr-primary-100--: #ffebee;
     --clr-primary-200--: #f8bbd0;
     --clr-primary-400--: #ff80aa;
@@ -19,39 +19,104 @@
     --clr-accent-200--: #bbdefb;
     --clr-accent-400--: #90caf9;
     --clr-accent-900--: #1975d2;
-    cursor: url('./images/cursor.png', auto);
-} */
+}
 
 body {
+    cursor: url('./images/cursor.png', auto);
+    border: 5px solid #cf0311;
+    margin: 0;
+    padding-top: 24px;
+}
 
+header {
+    box-sizing: border-box;
+    border-bottom: 5px solid #cf0311;
+    border-top: 5px solid #cf0311;
+    padding: 12px;
+    background: #ffebee;
 }
 
 h1 {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
-    text-decoration: none;
-    font-size: 39px;
+    font-weight: 450;
+    font-size: 27px;
 }
 
 h2 {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
-    text-decoration: none;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 24px;
 }
 
 h3 {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
-    text-decoration: none;
-    font-size: 24px;
+    font-weight: 450;
+    font-size: 21px;
 }
 
-h5 {
+h4, label {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
-    text-decoration: none;
-    font-size: 12px;
+    font-weight: 450;
+    font-size: 1.2rem;
 }
 
-p {
+h5, button {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
+    font-weight: 450;
+    font-size: 1rem;
+}
+
+p, li {
+    font-family: 'MS_Sans_Serif_8pt', sans-serif;
+    font-weight: 450;
+    font-size: 1.2rem;
+}
+
+a {
+    font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
+    color: #cf0311;
     text-decoration: none;
-    font-size: 9px;
+    font-size: 1rem;
+    padding-right: 1%;
+}
+
+button#submit {  
+    border: 3px solid #cf0311;
+    color: #cf0311;
+    background: #ffebee;
+    padding: .3em;
+}
+
+a:hover {
+    color: #ff80aa;
+}
+
+.hover_icon:hover {
+    background-color: #1975d2;
+}
+
+#links img {
+    width: 39x;
+    height: 39px;
+}
+
+#menu img {
+    display: inline-block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+#blog h4 {
+    font-weight: 600;
+}
+
+section#contact {
+    
+}
+
+#email_logo {
+    float: left;
+    padding-right: 1em;
 }

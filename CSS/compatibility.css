@@ -1,14 +1,14 @@
-colour scheme detector
+/* colour scheme detector */
+@media (prefers-color-scheme: light) {
+    body {
+        background: #ffebee;
+        color: #cf0311;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background: rgb(27, 27, 27);
         color: #f8bbd0;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    body {
-        background: #f8bbd0;
-        color: #cf0311;
     }
 }
