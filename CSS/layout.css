@@ -18,5 +18,17 @@ header {
 }
 
 main {
-    padding: 30px;
+    padding: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#menu img {
+    display: inline-block;
+    float: left;
+    width: 28px;
+    height: 28px;
+}
+.contact_form {
+    padding-bottom: 9px;
 }
