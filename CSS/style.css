@@ -22,7 +22,7 @@
 }
 
 body {
-    cursor: url('./images/cursor.png', auto);
+    cursor: src('./images/cursor.png', auto);
     border: 5px solid #cf0311;
     margin: 0;
     padding-top: 24px;
@@ -34,11 +34,12 @@ header {
     border-top: 5px solid #cf0311;
     padding: 12px;
     background: #f8bbd0;
+    padding-left: 21px;
 }
 
 h1 {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
-    font-weight: 450;
+    font-weight: normal;
     font-size: 27px;
 }
 
@@ -50,34 +51,85 @@ h2 {
 
 h3 {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
-    font-weight: 450;
+    font-weight: normal;
     font-size: 21px;
 }
 
 h4, label {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
-    font-weight: 450;
+    font-weight: normal;
     font-size: 1.2rem;
 }
 
 h5, button {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
-    font-weight: 450;
+    font-weight: normal;
     font-size: 1rem;
 }
 
 p, li {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
-    font-weight: 450;
+    font-weight: normal;
     font-size: 1.2rem;
 }
 
-a {
+/* LINK */
+#links a {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
     color: #cf0311;
     text-decoration: none;
     font-size: 1rem;
-    padding-right: 1%;
+    padding: 0;
+}
+
+.hover_icon:hover {
+    border: 2px dotted #1975d2;
+}
+
+#links img {
+    width: 39px;
+    height: 39px;
+}
+
+/* MENU */
+nav img:hover {
+    border: 2px dotted #1975d2;
+}
+
+nav a {
+    font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
+    color: #cf0311;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #ffebee;
+    border-bottom: 2px dotted #1975d2;
+}
+
+/* ABOUT  */
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li:before {
+    content: "\2665";
+    color: #cf0311;
+    padding-right: .4rem;
+}
+
+/* BLOG */
+#blog h4 {
+    font-weight: 600;
+}
+
+/* CONTACT FORM */
+#email_logo {
+    float: left;
+    padding-right: 1em;
 }
 
 button#submit {  
@@ -87,41 +139,19 @@ button#submit {
     padding: .3em;
 }
 
-a:hover {
-    color: #ffebee;
+button#submit:hover {  
+    border: 3px solid #1975d2;
+    color: #e3f2fd;
+    background: #1975d2;
+    padding: .3em;
 }
 
-.hover_icon:hover {
-    background-color: #1975d2;
+.input {
+    border: 3px solid #cf0311;
+    width: 180px;
 }
 
-#links img {
-    width: 39x;
-    height: 39px;
-}
-
-ul {
-    list-style: none;
-}
-
-ul li:before {
-    content: "\2665";
-    color: #cf0311;
-    padding-right: .4rem;
-}
-
-#blog h4 {
-    font-weight: 600;
-}
-
-section#contact {
-    
-}
-
-#email_logo {
-    float: left;
-    padding-right: 1em;
-}
+/* FOOTER */
 
 footer {  
     padding-left: 80px;

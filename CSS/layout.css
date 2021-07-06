@@ -15,6 +15,7 @@ header {
 .container {
     overflow: auto;
     text-align: center;
+    margin-bottom: 9px;
 }
 
 main {
