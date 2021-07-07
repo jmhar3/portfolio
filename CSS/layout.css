@@ -30,6 +30,13 @@ main {
     width: 28px;
     height: 28px;
 }
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
 .contact_form {
     padding-bottom: 9px;
 }

@@ -21,9 +21,8 @@
     --clr-accent-900--: #1975d2;
 }
 
-body {
-    cursor: src('./images/cursor.png', auto);
-    border: 5px solid #cf0311;
+body { 
+    cursor: url('../images/cursor.png'), auto;
     margin: 0;
     padding-top: 24px;
 }
@@ -40,7 +39,7 @@ header {
 h1 {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
     font-weight: normal;
-    font-size: 27px;
+    font-size: 21px;
 }
 
 h2 {
@@ -73,6 +72,10 @@ p, li {
     font-size: 1.2rem;
 }
 
+a:hover {   
+    cursor: url('../images/hover-cursor.png'), auto;
+}
+
 /* LINK */
 #links a {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
@@ -83,7 +86,7 @@ p, li {
 }
 
 .hover_icon:hover {
-    border: 2px dotted #1975d2;
+    border: 2px dotted #1975d2;   
 }
 
 #links img {
@@ -92,18 +95,18 @@ p, li {
 }
 
 /* MENU */
-nav img:hover {
+#menu img:hover {
     border: 2px dotted #1975d2;
 }
 
-nav a {
+#menu a {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
     color: #cf0311;
     text-decoration: none;
     font-size: 1rem;
 }
 
-nav a:hover {
+#menu a:hover {
     color: #ffebee;
     border-bottom: 2px dotted #1975d2;
 }
@@ -122,6 +125,12 @@ ul li:before {
 }
 
 /* BLOG */
+#blog a {
+    float: left;
+    padding-right: 1em;
+    padding-top: .35em;
+}
+
 #blog h4 {
     font-weight: 600;
 }
@@ -143,7 +152,8 @@ button#submit:hover {
     border: 3px solid #1975d2;
     color: #e3f2fd;
     background: #1975d2;
-    padding: .3em;
+    padding: .3em;    
+    cursor: url('../images/hover-cursor.png'), auto;
 }
 
 .input {
