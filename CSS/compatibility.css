@@ -11,13 +11,43 @@
         background: rgb(27, 27, 27);
         color: #f8bbd0;
     }
+    h4, input, textarea, ::placeholder {
+        color: #f8bbd0;
+    }
+    .websiteFrame {
+        background-color: #f8bbd0;
+     }
+    input, textarea {
+        border: #f8bbd0;
+        color: #ffebee;
+        background: rgb(27, 27, 27);
+    }
 }
 
 @media only screen and (max-width: 768px) {
     main {
         padding: 3em;
         padding-left: 9%;
-        padding-right: 15.5%;
+        padding-right: 9%;
         padding-bottom: .3em;
+    }
+    #links {
+        top: 5em;
+    }
+    #links img {
+        width: 6.9vw;
+        height: 6.9vw;
+    }    
+    #links p {
+        font-size: 3vw;
+    }
+    #menu ul {
+        margin: 0; 
+    }
+    header {
+        padding-left: 9px;
+    }
+    img, a, .container {
+        border: 0;
     }
 }
