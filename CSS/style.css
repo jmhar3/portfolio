@@ -161,18 +161,6 @@ a img:hover {
 }
 
 /* CONTACT */
-#email a {
-    text-decoration: none;
-   }
-
-#email h4 {
-    border-bottom: 2px dotted #ffebee;
-}
-
-#email h4:hover {
-    border-bottom: 2px dotted #1975d2;
-}
-
 input, textarea {
     width: 90%;
     padding: .3em;
