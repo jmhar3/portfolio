@@ -109,13 +109,15 @@ main img {
     margin-bottom: 0;
 }
 
-#contact a {
-    float: left;
-    padding-top: .5em;
+#email {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
-#email_me {
-    text-decoration: none;
+#email a {
+    float: left;
 }
 
 .contact_form {

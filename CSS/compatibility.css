@@ -20,10 +20,10 @@
         background: #f8bbd0;
     }
     #menu a {
-        color: #1975d2;
+        color: #cf0311;
     }
     #menu a:hover {
-        color: #cf0311;
+        color: #1975d2;
     }
     input, textarea {
         border: 3px solid #f8bbd0;
@@ -32,7 +32,7 @@
     }
     button#submit { 
         border: 3px solid #f8bbd0;
-        color: #ffebee;
+        color: #f8bbd0;
         background: rgb(27, 27, 27);
     }
     button#submit:hover {  
