@@ -17,12 +17,11 @@
     }
     header {
         border-bottom: 3px solid #f8bbd0;
-        background: #90caf9;
+        background: #f8bbd0;
     }
     #menu a {
         color: #1975d2;
     }
-    
     #menu a:hover {
         color: #cf0311;
     }
@@ -60,6 +59,11 @@
         width: 6.9vw;
         height: 6.9vw;
     }    
+    
+    #links img:hover {
+        width: 6.9vw;
+        height: 6.9vw;
+    }    
     #links p {
         font-size: 3vw;
     }
@@ -75,4 +79,30 @@
     img:hover, a:hover, .container:hover {
         border: 0;
     }
-}
+    a img  {
+        border: 0;
+    }
+    a img:hover {
+        border: 0;
+    }
+    .container {
+        border: 0;   
+    }
+    .container:hover {
+        border: 0;   
+    }
+    #menu img {
+        border: 0;
+    }
+    #menu img:hover {
+        border: 0;
+    }
+    #menu a:hover {
+        border-bottom: 0;
+    }
+    #email h4 {
+        border-bottom: 0;
+    }
+    #email h4:hover {
+        border-bottom: 0;
+    }
