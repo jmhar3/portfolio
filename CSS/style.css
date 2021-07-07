@@ -39,19 +39,20 @@ header {
 h1 {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
     font-weight: normal;
-    font-size: 21px;
+    font-size: 1.3rem;
+    padding-bottom: .8em;
 }
 
 h2 {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.6rem;
 }
 
 h3 {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
-    font-size: 21px;
+    font-size: 1.5rem;
 }
 
 h4, label {
@@ -63,18 +64,18 @@ h4, label {
 h5, button {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 p, li {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 ul {
     list-style: none;
-    padding-left: 0;
+    margin-top: 0;
 }
 
 a:hover {   
@@ -103,6 +104,10 @@ a:hover {
     height: 6.9vh;
 }
 
+#links p {
+    font-size: 3vh;
+}
+
 /* MENU */
 
 #menu img {
@@ -127,19 +132,13 @@ a:hover {
 
 /* ABOUT  */
 
-#about ul li:before {
+#work ul li:before {
     content: "\2665";
     color: #cf0311;
     padding-right: .4rem;
 }
 
 /* BLOG */
-#blog a {
-    float: left;
-    padding-right: 1em;
-    padding-top: .35em;
-}
-
 #blog h4 {
     font-weight: 600;
 }
@@ -166,25 +165,31 @@ button#submit:hover {
     cursor: url('../images/hover-cursor.png'), auto;
 }
 
-.input {
-    border: 3px solid #cf0311;
+input, textarea {
     width: 90%;
+    border: 3px solid #cf0311;
+}
+
+input, textarea:hover {
+    cursor: url('../images/text_cursor.png'), auto;
 }
 
 /* FOOTER */
 
-footer {  
-    padding-left: 9%;
+#footer {  
     padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer img {
-    float: left;
     padding-right: 12px;
 }
 
 footer p {
     font-size: 1rem;
+    clear: both;
 }
 
 /* FRAME */

@@ -20,8 +20,8 @@ header {
 
 main {
     padding: 3.5em;
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 10%;
+    padding-right: 12%;
 }
 
 #menu img {
@@ -40,6 +40,49 @@ main {
 #menu li {
     padding-left: 15px;
   }
+
+#name h2 {
+    margin-bottom: .3em;
+}  
+
+#name h4 {
+    margin-top: 0;
+    margin-bottom: .6em;
+}
+
+#about {
+    margin-bottom: 3em;
+}
+
+main img {
+    padding-right: .9em;
+    width: 24px;
+}
+
+#location { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#work p {
+    margin-bottom: 0;
+}
+
+#tech { 
+    margin: 0;
+    padding: 0;
+    padding-top: .3em;
+    display: flex;
+    align-items: center;
+}
+
+#blog a {
+    float: left;
+    padding-right: 1em;
+    padding-top: .35em;
+}
 
 .contact_form {
     padding-bottom: 9px;
