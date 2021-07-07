@@ -72,6 +72,11 @@ p, li {
     font-size: 1.2rem;
 }
 
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 a:hover {   
     cursor: url('../images/hover-cursor.png'), auto;
 }
@@ -85,16 +90,25 @@ a:hover {
     padding: 0;
 }
 
+.hover_icon {
+    border: 2px dotted #ffebee;   
+}
+
 .hover_icon:hover {
     border: 2px dotted #1975d2;   
 }
 
 #links img {
-    width: 39px;
-    height: 39px;
+    width: 6.9vh;
+    height: 6.9vh;
 }
 
 /* MENU */
+
+#menu img {
+    border: 2px dotted #f8bbd0;
+}
+
 #menu img:hover {
     border: 2px dotted #1975d2;
 }
@@ -113,12 +127,7 @@ a:hover {
 
 /* ABOUT  */
 
-ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-ul li:before {
+#about ul li:before {
     content: "\2665";
     color: #cf0311;
     padding-right: .4rem;
@@ -142,6 +151,7 @@ ul li:before {
 }
 
 button#submit {  
+    width: 90%;
     border: 3px solid #cf0311;
     color: #cf0311;
     background: #ffebee;
@@ -158,14 +168,14 @@ button#submit:hover {
 
 .input {
     border: 3px solid #cf0311;
-    width: 180px;
+    width: 90%;
 }
 
 /* FOOTER */
 
 footer {  
-    padding-left: 80px;
-    padding-bottom: 30px;
+    padding-left: 9%;
+    padding-bottom: 1em;
 }
 
 footer img {
