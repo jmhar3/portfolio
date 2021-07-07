@@ -12,3 +12,12 @@
         color: #f8bbd0;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 3em;
+        padding-left: 9%;
+        padding-right: 15.5%;
+        padding-bottom: .3em;
+    }
+}

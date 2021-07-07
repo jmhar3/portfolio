@@ -55,10 +55,11 @@ h3 {
     font-size: 1.5rem;
 }
 
-h4, label {
+h4, input, textarea, ::placeholder {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
     font-size: 1.2rem;
+    color: #cf0311;
 }
 
 h5, button {
@@ -82,6 +83,14 @@ a:hover {
     cursor: url('../images/hover-cursor.png'), auto;
 }
 
+a img  {
+    border: 2px dotted #ffebee;
+}
+    
+a img:hover {
+    border: 2px dotted #1975d2;
+}
+
 /* LINK */
 #links a {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
@@ -91,21 +100,30 @@ a:hover {
     padding: 0;
 }
 
-.hover_icon {
+.container {
     border: 2px dotted #ffebee;   
 }
 
-.hover_icon:hover {
+.container:hover {
     border: 2px dotted #1975d2;   
 }
 
 #links img {
     width: 6.9vh;
     height: 6.9vh;
+    border: none;
+}
+
+#links img:hover {
+    width: 6.9vh;
+    height: 6.9vh;
+    border: none;
 }
 
 #links p {
+    margin: 0;
     font-size: 3vh;
+    padding-top: .3em;
 }
 
 /* MENU */
@@ -143,14 +161,39 @@ a:hover {
     font-weight: 600;
 }
 
-/* CONTACT FORM */
-#email_logo {
-    float: left;
-    padding-right: 1em;
+/* CONTACT */
+#email a {
+    text-decoration: none;
+   }
+
+#email h4 {
+    border-bottom: 2px dotted #ffebee;
 }
 
-button#submit {  
+#email h4:hover {
+    border-bottom: 2px dotted #1975d2;
+}
+
+input, textarea {
     width: 90%;
+    padding: .3em;
+    border: 3px solid #cf0311;
+    color: #1975d2;
+}
+
+ input:hover, textarea:hover {
+    cursor: url('../images/text_cursor.png'), auto;
+    border: 3px solid #ff80aa;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 3px solid #1975d2;
+    color: #cf0311;
+}
+
+button#submit { 
+    width: 50%;
     border: 3px solid #cf0311;
     color: #cf0311;
     background: #ffebee;
@@ -163,33 +206,6 @@ button#submit:hover {
     background: #1975d2;
     padding: .3em;    
     cursor: url('../images/hover-cursor.png'), auto;
-}
-
-input, textarea {
-    width: 90%;
-    border: 3px solid #cf0311;
-}
-
-input, textarea:hover {
-    cursor: url('../images/text_cursor.png'), auto;
-}
-
-/* FOOTER */
-
-#footer {  
-    padding-bottom: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer img {
-    padding-right: 12px;
-}
-
-footer p {
-    font-size: 1rem;
-    clear: both;
 }
 
 /* FRAME */
