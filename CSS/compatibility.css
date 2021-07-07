@@ -11,17 +11,39 @@
         background: rgb(27, 27, 27);
         color: #f8bbd0;
     }
-    h4, input, textarea, ::placeholder {
+    
+    h4, input, textarea, p, ::placeholder {
         color: #f8bbd0;
+    }
+    header {
+        border-bottom: 3px solid #f8bbd0;
+        background: #90caf9;
+    }
+    #menu a {
+        color: #1975d2;
+    }
+    
+    #menu a:hover {
+        color: #cf0311;
+    }
+    input, textarea {
+        border: 3px solid #f8bbd0;
+        color: #ffebee;
+        background: rgb(27, 27, 27);
+    }
+    button#submit { 
+        border: 3px solid #f8bbd0;
+        color: #ffebee;
+        background: rgb(27, 27, 27);
+    }
+    button#submit:hover {  
+        border: 3px solid #90caf9;
+        color: #e3f2fd;
+        background: #90caf9;
     }
     .websiteFrame {
         background-color: #f8bbd0;
      }
-    input, textarea {
-        border: #f8bbd0;
-        color: #ffebee;
-        background: rgb(27, 27, 27);
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -48,6 +70,9 @@
         padding-left: 9px;
     }
     img, a, .container {
+        border: 0;
+    }
+    img:hover, a:hover, .container:hover {
         border: 0;
     }
 }
