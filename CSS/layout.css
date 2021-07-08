@@ -16,7 +16,7 @@ header {
 #menu ul {
     display: flex;
     margin-top: 3px;
-    margin-bottom: 3px;   
+    margin-bottom: 0;   
     padding-left: 0;
     margin-left: 0;
 }
@@ -118,6 +118,7 @@ main img {
 
 #email a {
     float: left;
+    text-decoration: none;
 }
 
 .contact_form {
