@@ -189,7 +189,8 @@ input:focus, textarea:focus {
 }
 
 button#submit { 
-    width: 50%;
+    align-self: center;
+    width: 30%;
     border: 3px solid #cf0311;
     color: #cf0311;
     background: #ffebee;
