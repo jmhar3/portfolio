@@ -56,16 +56,15 @@
         top: 5em;
     }
     #links img {
-        width: 6.9vw;
-        height: 6.9vw;
+        width: 1.8em;
+        height: 1.8em;
     }    
-    
     #links img:hover {
-        width: 6.9vw;
-        height: 6.9vw;
+        width: 1.8em;
+        height: 1.8em;
     }    
     #links p {
-        font-size: 3vw;
+        font-size: .8em;
     }
     #menu ul {
         margin: 0; 
@@ -73,36 +72,16 @@
     header {
         padding-left: 9px;
     }
-    img, a, .container {
+    img, a, .container, a img, .container, #menu, #menu a, #email {
         border: 0;
     }
-    img:hover, a:hover, .container:hover {
+    img:hover, a:hover, .container:hover, a img:hover, .container:hover, #menu:hover, #menu a:hover, #email:hover {
         border: 0;
     }
-    a img  {
-        border: 0;
+ 
+    #work a img {
+        width: 100%;
     }
-    a img:hover {
-        border: 0;
-    }
-    .container {
-        border: 0;   
-    }
-    .container:hover {
-        border: 0;   
-    }
-    #menu img {
-        border: 0;
-    }
-    #menu img:hover {
-        border: 0;
-    }
-    #menu a:hover {
-        border-bottom: 0;
-    }
-    #email h4 {
-        border-bottom: 0;
-    }
-    #email h4:hover {
-        border-bottom: 0;
-    }
+
+    button#submit { 
+        width: 45%;
