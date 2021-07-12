@@ -22,13 +22,22 @@
     #menu a {
         color: #cf0311;
     }
-    #menu a:hover {
-        color: #1975d2;
+    #menu a:hover, #email h4:hover{
+        border-bottom: 2px dotted #90caf9;
+    }
+    #email h4, img, .container, a img, .container, #email{
+        border: 2px dotted rgb(27, 27, 27);
+    }   
+    #menu img:hover, .container:hover, a img:hover {
+        border: 2px dotted #90caf9;
     }
     input, textarea {
         border: 3px solid #f8bbd0;
         color: #ffebee;
         background: rgb(27, 27, 27);
+    }
+    input:hover, textarea:hover{
+        border-color: #90caf9;
     }
     button#submit { 
         border: 3px solid #f8bbd0;
@@ -37,12 +46,12 @@
     }
     button#submit:hover {  
         border: 3px solid #90caf9;
-        color: #e3f2fd;
+        color: #1975d2;
         background: #90caf9;
     }
     .websiteFrame {
         background-color: #f8bbd0;
-     }
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -72,15 +81,13 @@
     header {
         padding-left: 9px;
     }
-    img, a, .container, a img, .container, #menu, #menu a, #email {
-        border: 0;
-    }
-    img:hover, a:hover, .container:hover, a img:hover, .container:hover, #menu:hover, #menu a:hover, #email:hover {
-        border: 0;
-    }
  
     #work a img {
         width: 100%;
+    }
+
+    input, textarea {
+        border-radius: 0;
     }
 
     button#submit { 
