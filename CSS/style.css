@@ -10,17 +10,6 @@
 }
 
 /* GENERAL */
-:root {
-    --clr-primary-100--: #ffebee;
-    --clr-primary-200--: #f8bbd0;
-    --clr-primary-400--: #ff80aa;
-    --clr-primary-900--: #cf0311;
-    --clr-accent-100--: #e3f2fd;
-    --clr-accent-200--: #bbdefb;
-    --clr-accent-400--: #90caf9;
-    --clr-accent-900--: #1975d2;
-}
-
 body { 
     cursor: url('../images/cursor.png'), auto;
     margin: 0;

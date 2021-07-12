@@ -25,7 +25,7 @@
     #menu a:hover, #email h4:hover{
         border-bottom: 2px dotted #90caf9;
     }
-    #email h4, img, .container, a img, .container, #email{
+    #email h4, img, .container, a img, .container, #email, #contact h4{
         border: 2px dotted rgb(27, 27, 27);
     }   
     #menu img:hover, .container:hover, a img:hover {
@@ -81,14 +81,8 @@
     header {
         padding-left: 9px;
     }
- 
     #work a img {
         width: 100%;
     }
-
-    input, textarea {
-        border-radius: 0;
-    }
-
     button#submit { 
         width: 45%;
