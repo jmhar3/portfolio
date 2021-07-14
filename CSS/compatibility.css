@@ -26,7 +26,7 @@
         border-bottom: 2px dotted #90caf9;
     }
     #email h4, img, .container, a img, .container, #email, #contact h4{
-        border: 2px dotted rgb(27, 27, 27);
+        border: 2px dotted transparent;
     }   
     #menu img:hover, .container:hover, a img:hover {
         border: 2px dotted #90caf9;

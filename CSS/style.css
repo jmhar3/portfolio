@@ -25,22 +25,22 @@ header {
 }
 
 h1 {
-    font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
-    font-weight: normal;
-    font-size: 1.3rem;
-    padding-bottom: .8em;
+    font-family: 'MS_Sans_Serif_8pt', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
 }
 
 h2 {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
-    font-weight: 500;
-    font-size: 1.6rem;
-}
-
-h3 {
-    font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
     font-size: 1.5rem;
+}
+
+h3 { 
+    font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+    padding-bottom: .8em;
 }
 
 h4, input, textarea, ::placeholder {
@@ -89,7 +89,7 @@ a img:hover {
 }
 
 .container {
-    border: 2px dotted #ffebee;   
+    border: 2px dotted transparent;   
 }
 
 .container:hover {
@@ -117,7 +117,7 @@ a img:hover {
 /* MENU */
 
 #menu img {
-    border: 2px dotted #f8bbd0;
+    border: 2px dotted transparent;
 }
 
 #menu img:hover {
@@ -162,7 +162,7 @@ a img:hover {
 /* CONTACT */
 
 #email h4 {
-    border-bottom: 2px dotted #ffebee;
+    border-bottom: 2px dotted transparent;
 }
 
 #email h4:hover {
