@@ -65,8 +65,9 @@ main {
     margin-bottom: .6em;
 }
 
-#about {
-    margin-bottom: 3em;
+#about h3 {
+    margin: 0;
+    padding-bottom: 1.5em;
 }
 
 main img {
@@ -81,8 +82,8 @@ main img {
     align-items: center;
 }
 
-#work p {
-    margin-bottom: 0;
+#location h4 {
+    margin: 0;
 }
 
 #tech { 
@@ -91,6 +92,10 @@ main img {
     padding-top: .3em;
     display: flex;
     align-items: center;
+}
+
+#work p {
+    margin-bottom: 0;
 }
 
 /* BLOG */
