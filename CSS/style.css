@@ -56,7 +56,7 @@ h5, button {
     font-size: 1.2rem;
 }
 
-p, li {
+p, li, a {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
     font-size: 1rem;
@@ -157,6 +157,13 @@ a img:hover {
 /* BLOG */
 #blog h4 {
     font-weight: 600;
+}
+
+#blog a {
+    text-decoration: none;
+    border-bottom: dotted 2px #1975d2;
+    color: #1975d2;
+    padding: 0;
 }
 
 /* CONTACT */

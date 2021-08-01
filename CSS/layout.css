@@ -112,11 +112,11 @@ main img {
     margin: 0;
 }
 
-#blog-title h4 {
+.blog-title h4 {
     margin-bottom: 0.6em;
 }
 
-#blog-title h5 {
+.blog-title h5 {
     margin-top: 0;
 }
 
