@@ -159,7 +159,7 @@ a img:hover {
     font-weight: 600;
 }
 
-#blog a {
+#blog p a {
     text-decoration: none;
     border-bottom: dotted 2px #1975d2;
     color: #1975d2;
